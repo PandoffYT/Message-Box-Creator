@@ -1,6 +1,6 @@
 @echo off
 color B
-title Message Box Creator (run as %username%)
+title Message Box Creator (ran as %username%)
 rem FUNCTION TO SET SOME VARIABLES AND WRITE FOLDERS !
 
 if exist "%TEMP%/MSGBOXCREATOR/tmp/" (
@@ -201,8 +201,6 @@ echo Congrats ! You made a Message Box in VBS !
 echo.
 echo The save path is %~dp0/%pathcall%.vbs
 echo.
-start https://ytpando.000webhostapp.com/msgbox/help/1.png
-echo (tip: to modify the file: (navigator should open in a few))
 echo.
 echo Would you like to make another (1) or quit (2)
 echo.
@@ -216,8 +214,6 @@ echo Congrats ! You made a Message Box in VBS !
 echo.
 echo The save path is %pathman%/%pathcall%.vbs
 echo.
-start https://ytpando.000webhostapp.com/msgbox/help/1.png
-echo (tip: to modify the file: (navigator should open in a few))
 echo.
 echo Would you like to make another (1) or quit (2)
 echo.
